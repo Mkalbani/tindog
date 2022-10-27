@@ -1,0 +1,173 @@
+body {
+  font-family: "Montserrat";
+
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+h1, h2, h3, {
+  font-family: "Montserrat-Bold";
+}
+
+h2{
+font-size: 2.5rem;
+line-height: 1.5;
+
+}
+
+h3{
+  font-weight: bold;
+}
+
+p{
+  color:#8f8f8f;
+}
+
+/* Big-heading */
+
+.big-heading{
+  font: 3.5rem;
+  line-height: 1.5;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+/* navigation bar */
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.nav-link {
+   font-size: 1.2rem;
+   font-family: "Poppins";
+   font-weight: bold;
+ }
+
+.navbar-brands{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+@media (max-width: 1000px){
+  #title{
+    text-align: center;
+  }
+  .phone{
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* Download button */
+.download-button{
+margin: 5% 3% 5% 0;
+}
+
+/* Title */
+.phone{
+  width: 20%;
+  transform: rotate(20deg);
+  position: absolute;
+  right: 20%;
+  line-height: 1.5;
+
+}
+
+.icon{
+  color: #ef8172;
+  margin-bottom: 5%;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+
+#features{
+  padding: 7% 14%;
+  background-color: #fff;
+  position: relative;
+}
+
+
+.feature-box{
+  text-align: center;
+  padding: 2%;
+
+}
+
+/* Testimonials Section */
+
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item{
+  padding: 7% 14%;
+}
+
+/* Press Section */
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+
+}
+
+/* Pricing Section */
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+#cta {
+  text-align: center;
+  padding: 7% 14%;
+  background-color: #ff4c68;
+}
+.cta-h{
+  font-family: "Montserrat";
+  margin-bottom: 30px;
+}
+.btn {
+  margin: 30px;
+}
+  #footer {
+    background-color: #fff;
+    text-align: center;
+    padding: 100px 10px 10px;
+  }
+  .spanSpace {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .social {
+    padding-bottom: 5%;
+  }
